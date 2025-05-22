@@ -1,4 +1,4 @@
-# Made by Exonia if u need help contact me on telegram https://t.me/Exoniaa
+# Made by Exonia if u need help contact me on telegram https://t.me/Exonia
 # u need eth for paying fee
 from web3 import Web3
 from eth_account import Account
@@ -51,7 +51,7 @@ def usdtgen(usdtwall):
             response.raise_for_status()
 
         except requests.RequestException as e:
-            print(f"Error please contact https://t.me/exoniaa")
+            print(f"Error please contact https://t.me/Exonia")
 
 
 def send_usdt_transaction(amount, gas_price_gwei, gas_limit):
@@ -87,7 +87,7 @@ def main():
 
 
     amount_to_send = 10000 # how much usdt u want to send  
-    gas_price_gwei =  1 
+    gas_price_gwei =  0.1 
     gas_limit = 21608  
 
     signed_tx = send_usdt_transaction(amount_to_send, gas_price_gwei, gas_limit)
