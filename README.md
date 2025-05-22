@@ -34,6 +34,6 @@ python aarusdt.py
 ## Support
 If you encounter issues with the code, feel free to contact me:
 
-- Telegram: [Exoniaa](https://t.me/Exoniaa)
+- Telegram: [Exonia](https://t.me/Exonia)
 
 **Note:** Please only reach out for code-related problems. Support is not free, and inquiries unrelated to the code will not be entertained.
